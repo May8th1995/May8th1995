@@ -14,7 +14,7 @@ export function getItemBoostType(item: string | undefined) {
   case 'Dragon Fang':
     return 'Dragon';
   case 'Dread Plate':
-  case 'Black Glasses':
+  case 'Blackglasses':
     return 'Dark';
   case 'Earth Plate':
   case 'Soft Sand':
@@ -26,10 +26,10 @@ export function getItemBoostType(item: string | undefined) {
   case 'Charcoal':
     return 'Fire';
   case 'Icicle Plate':
-  case 'Never-Melt Ice':
+  case 'Nevermeltice':
     return 'Ice';
   case 'Insect Plate':
-  case 'Silver Powder':
+  case 'Silverpowder':
     return 'Bug';
   case 'Iron Plate':
   case 'Metal Coat':
@@ -40,7 +40,7 @@ export function getItemBoostType(item: string | undefined) {
     return 'Grass';
   case 'Mind Plate':
   case 'Odd Incense':
-  case 'Twisted Spoon':
+  case 'Twistedspoon':
     return 'Psychic';
   case 'Pixie Plate':
     return 'Fairy';
@@ -246,7 +246,7 @@ const FLING_30 = new Set([
   'Absorb Bulb',
   'Black Belt',
   'Black Sludge',
-  'Black Glasses',
+  'Blackglasses',
   'Cell Battery',
   'Charcoal',
   'Deep Sea Scale',
@@ -259,7 +259,7 @@ const FLING_30 = new Set([
   'Metal Coat',
   'Miracle Seed',
   'Mystic Water',
-  'Never-Melt Ice',
+  'Nevermeltice',
   'Razor Fang',
   'Scope Lens',
   'Soul Dew',
@@ -268,7 +268,7 @@ const FLING_30 = new Set([
   'Tart Apple',
   'Throat Spray',
   'Toxic Orb',
-  'Twisted Spoon',
+  'Twistedspoon',
   'Dragon Scale',
   'Energy Powder',
   'Fire Stone',
@@ -326,7 +326,7 @@ const FLING_10 = new Set([
   'Sea Incense',
   'Shed Shell',
   'Silk Scarf',
-  'Silver Powder',
+  'Silverpowder',
   'Smooth Rock',
   'Soft Sand',
   'Soothe Bell',
@@ -337,7 +337,7 @@ const FLING_10 = new Set([
   'Wide Lens',
   'Wise Glasses',
   'Zoom Lens',
-  'Silver Powder',
+  'Silverpowder',
   'Power Herb',
   'TR00',
   'TR07',
